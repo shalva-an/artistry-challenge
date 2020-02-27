@@ -1,0 +1,8 @@
+Age: <%= @artist.age%> <br>
+Title: <%= @artist.title%> <br>
+Name: <%= @artist.name%> <br>
+
+<% @artist.instruments.each do |instrument| %>
+    <%= instrument.name%>
+    <br>
+<%end%>
